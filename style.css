@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    background-image: url(back.jpg);
+    border: 5px solid white;
+}
+
+#exp {
+    height: 10vh;
+}
+table {
+    border: 1px solid blueviolet;
+    background: linear-gradient(to right,rgb(230, 206, 103),rgb(241, 241, 239));
+    margin: auto;
+    width: 70vw;
+    height: 50vh;
+}
+th, td {
+    border: 1px solid purple;
+}
+#budget {
+    width: 40vw;
+    background: linear-gradient(to right,rgb(235, 124, 20),rgb(40, 235, 225));
+    border-radius: 10px;
+}
+#budget:hover {
+    width: 300px;
+    transition: 3s;
+    color: red;
+    background: linear-gradient(to right,rgb(145, 11, 150),rgb(227, 233, 233));
+
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    clip-path: circle(70px at 130px 90px);
+
+}
+#amount {
+    width: 10vw;
+}
+.box1 {
+    width: 100vw;
+}
+
+.bg {
+    background-image: url(back.jpg);
+    width: 100vh;
+    height: 100vh;
+    margin: 0%;
+    border: 0ch;
+}
+.div1 {
+    background-color: rgba(95, 137, 252, 0.404);
+}
+.bg-items, h1 {
+    background-image: linear-gradient(to right, rgb(243, 239, 239), rgb(204, 204, 250) 400px, rgb(248, 244, 244) 800px);
+    background-size: 800px 100%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .div1 {
+        background-color: rgba(235, 64, 52, 0.404);
+    }
+    #budget {
+        width: 40vw;
+        background: linear-gradient(to right,rgb(254, 255, 255),rgb(40, 235, 225));
+    }
+    table {
+        background: linear-gradient(to right,rgb(254, 255, 255),rgb(40, 235, 225));
+    }
+    .bg-items, h1 {
+        background: linear-gradient(to right,rgb(254, 255, 255),rgb(40, 235, 225));
+    }
+}
